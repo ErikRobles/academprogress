@@ -8,7 +8,7 @@ const Elem12 = (props) => {
     <>
       <label>Present Perfect</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Employment Vocabulary'>Employment Vocabulary</option>
         <option value='Resumes'>Resumes</option>
         <option value='Present Perfect Form'>Present Perfect Form</option>

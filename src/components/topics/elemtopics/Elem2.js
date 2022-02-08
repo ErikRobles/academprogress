@@ -8,7 +8,7 @@ const Elem2 = (props) => {
     <>
       <label>Present Simple affirmative</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Work Teams Vocabulary'>Work Teams Vocabulary</option>
         <option value='Departments and people in a company'>
           Departments and people in a company

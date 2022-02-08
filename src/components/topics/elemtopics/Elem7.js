@@ -8,7 +8,7 @@ const Elem7 = (props) => {
     <>
       <label>Past Simple Affirmative - Prepositions of Time</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Business Projects'>Business Projects</option>
         <option value='Past Simple Affirmative'>Past Simple Affirmative</option>
         <option value='Verbs in Past Tense'>Verbs in Past Tense</option>

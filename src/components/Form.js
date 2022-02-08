@@ -21,6 +21,21 @@ import Elem12 from './topics/elemtopics/Elem12';
 import Elem13 from './topics/elemtopics/Elem13';
 import Elem14 from './topics/elemtopics/Elem14';
 import Elem15 from './topics/elemtopics/Elem15';
+import Pre1 from './topics/pretopics/Pre1';
+import Pre2 from './topics/pretopics/Pre2';
+import Pre3 from './topics/pretopics/Pre3';
+import Pre4 from './topics/pretopics/Pre4';
+import Pre5 from './topics/pretopics/Pre5';
+import Pre6 from './topics/pretopics/Pre6';
+import Pre7 from './topics/pretopics/Pre7';
+import Pre8 from './topics/pretopics/Pre8';
+import Pre9 from './topics/pretopics/Pre9';
+import Pre10 from './topics/pretopics/Pre10';
+import Pre11 from './topics/pretopics/Pre11';
+import Pre12 from './topics/pretopics/Pre12';
+import Pre13 from './topics/pretopics/Pre13';
+import Pre14 from './topics/pretopics/Pre14';
+import Pre15 from './topics/pretopics/Pre15';
 
 const Form = ({ value }) => {
   const [level, setLevel] = useState('');
@@ -106,6 +121,36 @@ const Form = ({ value }) => {
             <Elem14 onChange={handleTopicChange} />
           ) : unit === 'el15' ? (
             <Elem15 onChange={handleTopicChange} />
+          ) : unit === 'pr1' ? (
+            <Pre1 onChange={handleTopicChange} />
+          ) : unit === 'pr2' ? (
+            <Pre2 onChange={handleTopicChange} />
+          ) : unit === 'pr3' ? (
+            <Pre3 onChange={handleTopicChange} />
+          ) : unit === 'pr4' ? (
+            <Pre4 onChange={handleTopicChange} />
+          ) : unit === 'pr5' ? (
+            <Pre5 onChange={handleTopicChange} />
+          ) : unit === 'pr6' ? (
+            <Pre6 onChange={handleTopicChange} />
+          ) : unit === 'pr7' ? (
+            <Pre7 onChange={handleTopicChange} />
+          ) : unit === 'pr8' ? (
+            <Pre8 onChange={handleTopicChange} />
+          ) : unit === 'pr9' ? (
+            <Pre9 onChange={handleTopicChange} />
+          ) : unit === 'pr10' ? (
+            <Pre10 onChange={handleTopicChange} />
+          ) : unit === 'pr11' ? (
+            <Pre11 onChange={handleTopicChange} />
+          ) : unit === 'pr12' ? (
+            <Pre12 onChange={handleTopicChange} />
+          ) : unit === 'pr13' ? (
+            <Pre13 onChange={handleTopicChange} />
+          ) : unit === 'pr14' ? (
+            <Pre14 onChange={handleTopicChange} />
+          ) : unit === 'pr15' ? (
+            <Pre15 onChange={handleTopicChange} />
           ) : null}
         </div>
         {level && unit && topic ? (

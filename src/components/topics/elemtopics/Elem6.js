@@ -8,7 +8,7 @@ const Elem6 = (props) => {
     <>
       <label>Countable and Uncountable Nouns</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Money Currencies'>Money Currencies</option>
         <option value='Large Numbers - thousands - millions'>
           Large Numbers - thousands - millions

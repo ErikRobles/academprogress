@@ -8,7 +8,7 @@ const Elem1 = (props) => {
     <>
       <label>Verb To Be</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Working abroad vocabulary - countries and Nationalities'>
           Working Abroad
         </option>

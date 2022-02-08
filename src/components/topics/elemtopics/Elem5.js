@@ -8,7 +8,7 @@ const Elem5 = (props) => {
     <>
       <label>Modals (offers/request and permission)</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Company Events Vocabulary'>
           Company Events Vocabulary
         </option>

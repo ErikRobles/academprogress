@@ -8,7 +8,7 @@ const Elem10 = (props) => {
     <>
       <label>Present Continuous</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Competitors vocalulary'>Competitors vocalulary</option>
         <option value='Word Families'>Word Families</option>
         <option value='SWOT Analysis'>SWOT Analysis</option>

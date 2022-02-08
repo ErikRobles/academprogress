@@ -8,7 +8,7 @@ const Elem13 = (props) => {
     <>
       <label>Modals Advice and Suggestions</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Creative Thinking Vocabulary'>
           Creative Thinking Vocabulary
         </option>

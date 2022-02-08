@@ -8,7 +8,7 @@ const Elem11 = (props) => {
     <>
       <label>Comparatives and Superlatives</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Business Location vocabulary'>
           Buiness Location vocabulary
         </option>

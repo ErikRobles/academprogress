@@ -8,7 +8,7 @@ const Elem14 = (props) => {
     <>
       <label>Present Continuous as Future</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Business Traveling Vocabulary'>
           Business Traveling Vocabulary
         </option>

@@ -8,7 +8,7 @@ const Elem8 = (props) => {
     <>
       <label>Past simple negative and questions</label>
       <select value={props.value} onChange={handleTopicChange}>
-        <option disabled>Please Select a Topic</option>
+        <option>Please Select a Topic</option>
         <option value='Finding Solutions Vocabulary'>
           Finding Solutions Vocabulary
         </option>
